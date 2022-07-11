@@ -1,0 +1,23 @@
+export interface Fine {
+    IDMULTA: number,
+    FECHAVENCIMIENTO: string,
+    PROPIEDADES: string,
+    Valor: number,
+    CODIGOSEGURIDAD: string,
+    Estado: number,
+    ESTADO: number,
+    FECHADOCUMENTO: string,
+    ARMA: string,
+    ESTADOMULTA: string,
+    IDITEM: number,
+    SURNAME1: string,
+    SURNAME2: string,
+    IDFUNCIONARIO: number,
+    SERIAL: string,
+    CODIGOPERMISO: string,
+    SINCE: string,
+    OBSERVACION: string,
+    NAME1: string,
+    NIT: number,
+    VALOR: number
+}

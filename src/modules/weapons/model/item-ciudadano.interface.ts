@@ -1,0 +1,30 @@
+export interface DataItemCiudadano {
+    Cantidad: number;
+    ErrorMsg: "OK=TRAUMATICA"
+    Estado: number;
+    EstadoArma: number;
+    FechaDocumento: Date;
+    FechaDocumentoSalida: Date;
+    FechaMarcaje: Date;
+    IDAlmaIndumil: number;
+    IDCiudadano: number;
+    IDEntradaAlmacen: number;
+    IDItem: number;
+    IDLote: number;
+    IDManifiestoImp: number;
+    IDProcesoEntrada: number;
+    IDProcesoSalida: number;
+    IDProducto: number;
+    IDSalidaAlmacen: number;
+    NombreAlmacen: string;
+    NombreEstado: string;
+    NombreProducto: string;
+    Propiedades: string;
+    Serial: string;
+    SerialIndumil: string;
+    Since: Date;
+    TipoUso: number;
+    TotalErrors: number;
+    ValorUnitario: number;
+    ItemEstado: string;
+}

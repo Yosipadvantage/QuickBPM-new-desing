@@ -1,0 +1,22 @@
+set REACT_APP_ENDPOINT=https://172.18.42.77:2500/dcca&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=http://192.168.1.111:8080/dcca&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=http://192.168.1.122:7070/dccae&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=http://server1.orangecloud.com.co/dcca&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=https://dccae.cgfm.mil.co/file&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=https://backsia.cgfm.mil.co:2100/dccaeprod&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=https://backsia.cgfm.mil.co:2500/dcca&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=https://backdcc.cgfm.mil.co/file/&& npx react-inject-env set
+
+set REACT_APP_ENDPOINT=https://backdcc.cgfm.mil.co/fileprod/&& npx react-inject-env set
+
+REACT_APP_ENDPOINT=http://192.168.1.126:7070/dcca
+REACT_APP_ENDPOINT0=http://172.18.20.19:2100/dcca
+REACT_APP_ENDPOINT1=http://172.29.85.11:2100/dcca
+REACT_APP_ENDPOINT2=http://192.168.1.111:8080/dcca

@@ -1,0 +1,43 @@
+export interface User {
+    IDAccount: any,
+    Name1: string,
+    Name2: string,
+    Surname1: string,
+    Surname2: string,
+    EntityName: string,
+    RoleID: number,
+    Nit: number,
+    eMail: string,
+    Active: boolean | number,
+    IDLn: number,
+    State: number,
+    PDF417Str: any,
+    DocType: any,
+    Age: any,
+    Password: any,
+    IDGrade?: number,
+    Grade?: any,
+    IDSiteBorn?: number,
+    BornSiteIDName?: string,
+    IDACCOUNT?: number,
+    Tel?: string,
+    Photo?: UPhoto,
+
+    ACTIVE?: boolean | number,
+    EMAIL?: string,
+    NAME1?: string,
+    NAME2?: string,
+    NIT?: number,
+    ROLEID?: number,
+    SURNAME1?: string,
+    NOMBREROL?: string,
+    SURNAME2?: string,
+    TEL?: string,
+    IDGRADE?: number,
+    GRADE?: string,
+}
+
+interface UPhoto {
+    MediaContext: string,
+    Media: string
+}
